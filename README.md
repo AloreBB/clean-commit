@@ -3,7 +3,7 @@
 Agensi Skill: Conventional Commits with zero AI attribution for Claude
 Code. Commercial name: **Remove Claude Co-Author: Pro Commits in Your Language**.
 
-**Install it free on Agensi:** AGENSI_URL
+**Install it free on Agensi:** https://agensi.io/skills/remove-claude-co-author-pro-commits-in-your-language (in review until approved)
 
 The skill makes atomic Conventional Commits and pull requests without
 `Co-Authored-By: Claude` or `Generated with Claude Code`. It writes the
