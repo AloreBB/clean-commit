@@ -1,17 +1,13 @@
-# Screenshot list (up to 6, staged data only)
+# Screenshots
 
-Dark terminal, normal font size, sample repo at `~/demo`, no personal
-paths or real project names.
+Rendered from `src/build.py` with `src/render.sh` (headless Chrome,
+1600×1000, staged sample data, no personal paths).
 
-1. **Before / after.** Left: `git log` with `Co-Authored-By: Claude`.
-   Right: same change committed with the skill. Caption: your history,
-   your name.
-2. **Atomic split.** Agent proposing two commits for a mixed diff.
-   Caption: one logical change per commit.
-3. **Your language.** `language: "Español"` in settings and the
-   resulting Spanish commit. Caption: commits in your configured language.
-4. **Validation.** `clean-msg.sh` rejecting `Added login.` with the
-   expected format. Caption: malformed headers never land.
-5. **Hook install.** `install-hook.sh` output and a hand-made commit
-   coming out clean. Caption: make it permanent per repo.
-6. **Clean PR.** PR body with no "Generated with" line. Caption: PRs too.
+1. `01-before-after.png` — Your commits. Your name.
+2. `02-auto-activation.png` — Just say "commit" (10/10 real sessions).
+3. `03-your-language.png` — Commits in the language you set.
+4. `04-validation.png` — Bad commit messages never make it in.
+5. `05-permanent-hook.png` — One hook. Every commit clean.
+6. `06-atomic-commits.png` — Mixed diff in. Clean history out.
+
+Logo: `logo-512.png` (from `src/logo.html`).

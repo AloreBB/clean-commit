@@ -1,0 +1,42 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1600px;height:1000px;background:#0b0f14;color:#e6edf3;font-family:-apple-system,"SF Pro Display","Inter",Helvetica,sans-serif;overflow:hidden;position:relative}
+body:before{content:"";position:absolute;inset:0;background:radial-gradient(900px 600px at 85% -10%,rgba(43,212,138,.18),transparent 60%),radial-gradient(700px 500px at -10% 110%,rgba(43,212,138,.10),transparent 60%)}
+.wrap{position:relative;height:100%;padding:72px 88px;display:flex;flex-direction:column;gap:40px}
+.kicker{font:600 22px/1 "SF Mono",Menlo,monospace;color:#2bd48a;letter-spacing:.08em;text-transform:uppercase}
+h1{font-size:76px;line-height:1.02;font-weight:800;letter-spacing:-.03em}
+h1 em{font-style:normal;color:#2bd48a}
+.sub{font-size:28px;color:#9aa7b4;margin-top:14px;max-width:1200px}
+.term{background:#11161d;border:1px solid #232b35;border-radius:18px;box-shadow:0 30px 80px rgba(0,0,0,.55);overflow:hidden;flex:1}
+.bar{height:44px;background:#161c24;border-bottom:1px solid #232b35;display:flex;align-items:center;gap:9px;padding:0 18px}
+.bar i{width:13px;height:13px;border-radius:50%;display:block}.bar i:nth-child(1){background:#ff5f57}.bar i:nth-child(2){background:#febc2e}.bar i:nth-child(3){background:#28c840}
+.bar span{margin-left:14px;font:500 17px "SF Mono",Menlo,monospace;color:#6b7785}
+pre{font:400 25px/1.55 "SF Mono",Menlo,monospace;padding:26px 32px;white-space:pre;color:#c9d4df}
+.g{color:#2bd48a}.r{color:#ff6b6b}.y{color:#f5c451}.d{color:#6b7785}.b{color:#7cc4ff}.w{color:#fff;font-weight:700}
+.strike{color:#ff6b6b;text-decoration:line-through;text-decoration-thickness:3px}
+.row{display:flex;gap:36px;flex:1}.row>.term{flex:1}
+.tag{display:inline-block;padding:6px 14px;border-radius:999px;font:700 18px "SF Mono",Menlo,monospace}
+.tag.bad{background:rgba(255,107,107,.15);color:#ff6b6b}.tag.good{background:rgba(43,212,138,.15);color:#2bd48a}
+.brand{position:absolute;right:88px;top:76px;font:700 22px "SF Mono",Menlo,monospace;color:#6b7785}
+.brand b{color:#2bd48a}
+</style></head><body>
+<div class="brand">clean<b>-</b>commit</div>
+<div class="wrap"><div><div class="kicker">Remove Claude Co-Author</div><h1 style="margin-top:18px">Your commits. <em>Your name.</em></h1><div class="sub">Claude Code signs every commit. This skill doesn't.</div></div><div class="row"><div class="term" ><div class="bar"><i></i><i></i><i></i><span>git log — without the skill</span></div><pre><span class="tag bad">BEFORE</span>
+
+<span class="y">commit 3f9a1c2</span>
+Author: You
+
+    feat: add refresh token
+
+    <span class="strike">Co-Authored-By: Claude</span>
+    <span class="strike">&lt;noreply@anthropic.com&gt;</span>
+</pre></div><div class="term" ><div class="bar"><i></i><i></i><i></i><span>git log — with clean-commit</span></div><pre><span class="tag good">AFTER</span>
+
+<span class="y">commit 8b2e563</span>
+Author: You
+
+    <span class="w">feat(auth): add refresh token rotation</span>
+
+    Sessions expired mid-task. Rotate the
+    token on every use, revoke the old one.
+</pre></div></div></div></body></html>

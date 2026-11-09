@@ -1,0 +1,34 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1600px;height:1000px;background:#0b0f14;color:#e6edf3;font-family:-apple-system,"SF Pro Display","Inter",Helvetica,sans-serif;overflow:hidden;position:relative}
+body:before{content:"";position:absolute;inset:0;background:radial-gradient(900px 600px at 85% -10%,rgba(43,212,138,.18),transparent 60%),radial-gradient(700px 500px at -10% 110%,rgba(43,212,138,.10),transparent 60%)}
+.wrap{position:relative;height:100%;padding:72px 88px;display:flex;flex-direction:column;gap:40px}
+.kicker{font:600 22px/1 "SF Mono",Menlo,monospace;color:#2bd48a;letter-spacing:.08em;text-transform:uppercase}
+h1{font-size:76px;line-height:1.02;font-weight:800;letter-spacing:-.03em}
+h1 em{font-style:normal;color:#2bd48a}
+.sub{font-size:28px;color:#9aa7b4;margin-top:14px;max-width:1200px}
+.term{background:#11161d;border:1px solid #232b35;border-radius:18px;box-shadow:0 30px 80px rgba(0,0,0,.55);overflow:hidden;flex:1}
+.bar{height:44px;background:#161c24;border-bottom:1px solid #232b35;display:flex;align-items:center;gap:9px;padding:0 18px}
+.bar i{width:13px;height:13px;border-radius:50%;display:block}.bar i:nth-child(1){background:#ff5f57}.bar i:nth-child(2){background:#febc2e}.bar i:nth-child(3){background:#28c840}
+.bar span{margin-left:14px;font:500 17px "SF Mono",Menlo,monospace;color:#6b7785}
+pre{font:400 25px/1.55 "SF Mono",Menlo,monospace;padding:26px 32px;white-space:pre;color:#c9d4df}
+.g{color:#2bd48a}.r{color:#ff6b6b}.y{color:#f5c451}.d{color:#6b7785}.b{color:#7cc4ff}.w{color:#fff;font-weight:700}
+.strike{color:#ff6b6b;text-decoration:line-through;text-decoration-thickness:3px}
+.row{display:flex;gap:36px;flex:1}.row>.term{flex:1}
+.tag{display:inline-block;padding:6px 14px;border-radius:999px;font:700 18px "SF Mono",Menlo,monospace}
+.tag.bad{background:rgba(255,107,107,.15);color:#ff6b6b}.tag.good{background:rgba(43,212,138,.15);color:#2bd48a}
+.brand{position:absolute;right:88px;top:76px;font:700 22px "SF Mono",Menlo,monospace;color:#6b7785}
+.brand b{color:#2bd48a}
+</style></head><body>
+<div class="brand">clean<b>-</b>commit</div>
+<div class="wrap"><div><div class="kicker">Your language</div><h1 style="margin-top:18px">Commits in the language <em>you</em> set.</h1><div class="sub">Reads Claude Code’s <span style='font-family:SF Mono,Menlo,monospace;color:#e6edf3'>language</span> setting. Spec keywords stay in English so tools keep working.</div></div><div class="row"><div class="term" ><div class="bar"><i></i><i></i><i></i><span>~/.claude/settings.json</span></div><pre>{
+  <span class="b">"language"</span>: <span class="g">"Español"</span>
+}
+
+<span class="d"># project settings override user settings</span>
+<span class="d"># unset → English</span></pre></div><div class="term" ><div class="bar"><i></i><i></i><i></i><span>git log --oneline</span></div><pre><span class="y">a41c0de</span> <span class="w">feat(auth):</span> validar usuario
+<span class="y">7d2f9b1</span> <span class="w">docs(readme):</span> agregar instalación
+<span class="y">c09e4aa</span> <span class="w">fix(api):</span> devolver 404
+
+<span class="d">language: "Deutsch"</span>
+<span class="y">e18b3f2</span> <span class="w">feat(auth):</span> Token erneuern</pre></div></div></div></body></html>

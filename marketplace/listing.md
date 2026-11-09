@@ -1,6 +1,6 @@
 # Listing copy (English, for the Agensi listing form)
 
-Price: **Free** (reach and reviews first; switch to paid later if it gains traction).
+Price: **Free**. Listing: https://agensi.io/skills/remove-claude-co-author-pro-commits-in-your-language
 
 ## Name (≤60 chars)
 
