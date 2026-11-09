@@ -1,7 +1,10 @@
 # Remove Claude Co-Author: Pro Commits in Your Language
 
-[![Install free on Agensi](https://img.shields.io/badge/Install%20free-on%20Agensi-2bd48a?style=for-the-badge)](https://agensi.io/skills/remove-claude-co-author-pro-commits-in-your-language)
-![License](https://img.shields.io/badge/license-Apache%202.0-blue?style=for-the-badge)
+<p align="center">
+  <a href="https://agensi.io/skills/remove-claude-co-author-pro-commits-in-your-language">
+    <img src="marketplace/install-button.png" alt="Install free on Agensi" width="520">
+  </a>
+</p>
 
 **Your commits. Your name.** Claude Code signs every commit with
 `Co-Authored-By: Claude` and every PR with "Generated with Claude Code".
@@ -12,7 +15,11 @@ attribution**, written in the language you configured in Claude Code.
 
 ## Install
 
-👉 **[Install it free on Agensi](https://agensi.io/skills/remove-claude-co-author-pro-commits-in-your-language)**
+<p align="center">
+  <a href="https://agensi.io/skills/remove-claude-co-author-pro-commits-in-your-language">
+    <img src="marketplace/install-button.png" alt="Install free on Agensi" width="520">
+  </a>
+</p>
 
 Or manually: copy `SKILL.md`, `references/`, and `scripts/` into
 `~/.claude/skills/clean-commit/`.
@@ -79,5 +86,7 @@ Never include `marketplace/` or `tests/` in the ZIP.
 Open an [issue](https://github.com/AloreBB/clean-commit/issues).
 
 ## License
+
+![License](https://img.shields.io/badge/license-Apache%202.0-blue)
 
 Apache 2.0. See [`LICENSE`](LICENSE).
