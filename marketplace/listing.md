@@ -1,10 +1,10 @@
 # Listing copy (English, for the Agensi listing form)
 
-Price: set to **$2.99** in the Agensi form (not in files). Adjust before submitting.
+Price: **Free** (reach and reviews first; switch to paid later if it gains traction).
 
 ## Name (≤60 chars)
 
-Clean Commits for Claude Code
+Remove Claude Co-Author: Pro Commits in Your Language
 
 ## Summary (≤300 chars)
 

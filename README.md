@@ -1,7 +1,7 @@
 # clean-commit
 
 Agensi Skill: Conventional Commits with zero AI attribution for Claude
-Code. Commercial name: **Clean Commits for Claude Code**.
+Code. Commercial name: **Remove Claude Co-Author: Pro Commits in Your Language**.
 
 The skill makes atomic Conventional Commits and pull requests without
 `Co-Authored-By: Claude` or `Generated with Claude Code`. It writes the

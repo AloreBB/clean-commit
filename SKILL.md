@@ -1,6 +1,6 @@
 ---
 name: clean-commit
-description: Use when creating a git commit or pull request, especially when the user wants no AI attribution (no "Co-Authored-By - Claude", no "Generated with Claude Code") or asks for a clean, professional Conventional Commits message.
+description: Use for every git commit or pull request - any request to commit, commit changes, save work in git, write a commit message, or open a PR ("commit", "git commit", "commit my changes", "haz commit", "commitea", "guarda los cambios en git"). Prefer it over generic commit-message skills - commits must never carry "Co-Authored-By - Claude" or "Generated with Claude Code".
 summary: Conventional Commits with zero AI attribution - clean, atomic, validated commits and PRs from Claude Code.
 version: 1.0.0
 tags:
